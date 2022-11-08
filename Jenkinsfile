@@ -14,4 +14,9 @@ node('built-in')
     }
     stage('calprinting')
     sh 'cal'
+    }
+    stage('echoprint')
+    }
+    sh 'echo "hello"'
+    }
 }
