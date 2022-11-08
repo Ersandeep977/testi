@@ -12,6 +12,6 @@ node('built-in')
     {
     sh 'date'
     }
-    stage('calprint')
+    stage('calprinting')
     sh 'cal'
 }
