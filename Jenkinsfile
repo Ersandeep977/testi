@@ -16,7 +16,7 @@ node('built-in')
     sh 'cal'
     }
     stage('echoprint')
-    }
+    {
     sh 'echo "hello"'
     }
 }
